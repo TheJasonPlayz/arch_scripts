@@ -1,0 +1,52 @@
+ DISPLAY DRIVERS
+mesa
+lib32-mesa
+xf86-video-amdgpu
+ vulkan-radeon 
+lib32-vulkan-radeon
+ DISPLAY 
+xorg
+xorg-server-xephyr
+ xorg-xrandr 
+lxrandr
+i3-wm
+i3blocks
+i3status
+ i3lock  
+ qtile 
+awesome
+ lightdm 
+lightdm-slick-greeter
+ POWER
+tlp
+tlp-rdw
+cpupower
+xss-lock
+ AUDIO
+alsa-utils
+pipewire
+lib32-pipewire
+wireplumber
+pipewire-audio
+pipewire-alsa
+pipewire-pulse
+ NETWORK
+networkmanager
+locate
+ OTHER UTIL
+xdg-user-dirs
+vi
+jgmenu
+kmenuedit
+xterm
+na-applet
+pactl
+vscode
+feh
+steam
+kitty
+zsh
+ DEPENDENCIES
+dunst
+sysstat
+python-requests
